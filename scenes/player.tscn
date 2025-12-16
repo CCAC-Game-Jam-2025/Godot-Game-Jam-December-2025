@@ -125,8 +125,9 @@ script = ExtResource("2_g2els")
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 sprite_frames = SubResource("SpriteFrames_dqkch")
 animation = &"jump"
-frame_progress = 0.26677552
+frame_progress = 0.3959183
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+visible = false
 position = Vector2(-2, 34)
 shape = SubResource("CircleShape2D_g2els")
