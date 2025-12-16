@@ -11,7 +11,7 @@ func _physics_process(delta: float) -> void:
 		velocity += get_gravity() * delta
 
 	if is_on_floor():
-		tile
+		pass
 
 	# Handle jump.
 	if Input.is_action_just_pressed("Jump") and is_on_floor():
